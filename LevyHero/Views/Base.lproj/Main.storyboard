@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Vision Object Recognition View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="VisionObjectRecognitionViewController" customModule="LevyHero" customModuleProvider="target" sceneMemberID="viewController">
+                    <stackView key="view" opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="-30" id="bfs-1B-Ow9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tYj-bJ-fXq">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="463"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="DrU-0o-e7e">
+                                <rect key="frame" x="0.0" y="433" width="414" height="463"/>
+                                <subviews>
+                                    <scrollView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceHorizontal="YES" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M7f-Sz-IPN">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+                                        <color key="backgroundColor" red="0.16470588235294117" green="0.12156862745098039" blue="0.19215686274509802" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </scrollView>
+                                    <scrollView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Sf-rn-LXe">
+                                        <rect key="frame" x="0.0" y="100" width="414" height="363"/>
+                                        <subviews>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="emW-uF-hAJ">
+                                                <rect key="frame" x="188.66666666666666" y="163" width="37" height="37"/>
+                                            </activityIndicatorView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.1647058824" green="0.1215686275" blue="0.19215686269999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="emW-uF-hAJ" secondAttribute="trailing" constant="188.33333333333334" id="0ab-wH-sfL"/>
+                                            <constraint firstItem="emW-uF-hAJ" firstAttribute="centerX" secondItem="0Sf-rn-LXe" secondAttribute="centerX" id="6HY-d2-fgQ"/>
+                                            <constraint firstAttribute="bottom" secondItem="emW-uF-hAJ" secondAttribute="bottom" constant="163" id="Jrd-p3-09k"/>
+                                            <constraint firstItem="emW-uF-hAJ" firstAttribute="centerY" secondItem="0Sf-rn-LXe" secondAttribute="centerY" id="pj6-u0-Hd4"/>
+                                        </constraints>
+                                    </scrollView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="0Sf-rn-LXe" firstAttribute="centerX" secondItem="DrU-0o-e7e" secondAttribute="centerX" id="GXT-Ud-jo3"/>
+                                    <constraint firstItem="0Sf-rn-LXe" firstAttribute="top" secondItem="DrU-0o-e7e" secondAttribute="top" constant="100" id="PJy-5q-i9G"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="DrU-0o-e7e" firstAttribute="trailing" secondItem="UwH-MN-eRA" secondAttribute="trailing" id="0hL-XM-Hjq"/>
+                            <constraint firstItem="tYj-bJ-fXq" firstAttribute="centerX" secondItem="bfs-1B-Ow9" secondAttribute="centerX" id="pb7-3G-aCy"/>
+                            <constraint firstItem="DrU-0o-e7e" firstAttribute="leading" secondItem="UwH-MN-eRA" secondAttribute="leading" id="v23-A0-flp"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="UwH-MN-eRA"/>
+                    </stackView>
+                    <connections>
+                        <outlet property="previewView" destination="tYj-bJ-fXq" id="9MB-aK-aYh"/>
+                        <outlet property="recipeActivityIndicator" destination="emW-uF-hAJ" id="65t-qM-KTz"/>
+                        <outlet property="scrollHIngredients" destination="M7f-Sz-IPN" id="aYz-v7-Cps"/>
+                        <outlet property="scrollHRecipes" destination="0Sf-rn-LXe" id="QQn-km-dfD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="111.99400299850076"/>
+        </scene>
+    </scenes>
+</document>
