@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C2EB90A23AFE500006F8237 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EB90923AFE500006F8237 /* AppDelegate.swift */; };
+		2C2EB90C23AFE500006F8237 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EB90B23AFE500006F8237 /* SceneDelegate.swift */; };
+		2C2EB90E23AFE500006F8237 /* VisionObjectRecognitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EB90D23AFE500006F8237 /* VisionObjectRecognitionViewController.swift */; };
+		2C2EB91123AFE500006F8237 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C2EB90F23AFE500006F8237 /* Main.storyboard */; };
+		2C2EB91323AFE503006F8237 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C2EB91223AFE503006F8237 /* Assets.xcassets */; };
+		2C2EB91623AFE503006F8237 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C2EB91423AFE503006F8237 /* LaunchScreen.storyboard */; };
+		2C2EB91E23AFE62D006F8237 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EB91D23AFE62D006F8237 /* ViewController.swift */; };
+		2C57569E23DE37040075E3D4 /* TomatoOnionDetector.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2C57569D23DE37040075E3D4 /* TomatoOnionDetector.mlmodel */; };
+		2C70C9A923DE23FE00728971 /* RecipeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C70C9A823DE23FE00728971 /* RecipeCardView.swift */; };
+		2C920D7123D389C20035B84D /* RecipeCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C920D7023D389C20035B84D /* RecipeCard.xib */; };
+		2CB5E34123B9EE0E002E21DF /* RecipeListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB5E34023B9EE0E002E21DF /* RecipeListData.swift */; };
+		2CB5E34423B9EEFD002E21DF /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB5E34323B9EEFD002E21DF /* NetworkManager.swift */; };
+		2CB5E34623B9F1BF002E21DF /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB5E34523B9F1BF002E21DF /* RecipeModel.swift */; };
+		2CD2FDDC23BB76E200E29A8C /* IngredientLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD2FDDB23BB76E200E29A8C /* IngredientLogic.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C2EB90623AFE500006F8237 /* LeftoverHero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeftoverHero.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C2EB90923AFE500006F8237 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C2EB90B23AFE500006F8237 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2C2EB90D23AFE500006F8237 /* VisionObjectRecognitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionObjectRecognitionViewController.swift; sourceTree = "<group>"; };
+		2C2EB91023AFE500006F8237 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C2EB91223AFE503006F8237 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C2EB91523AFE503006F8237 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C2EB91723AFE503006F8237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C2EB91D23AFE62D006F8237 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C57569D23DE37040075E3D4 /* TomatoOnionDetector.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TomatoOnionDetector.mlmodel; sourceTree = "<group>"; };
+		2C70C9A823DE23FE00728971 /* RecipeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCardView.swift; sourceTree = "<group>"; };
+		2C920D7023D389C20035B84D /* RecipeCard.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecipeCard.xib; sourceTree = "<group>"; };
+		2CB5E34023B9EE0E002E21DF /* RecipeListData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListData.swift; sourceTree = "<group>"; };
+		2CB5E34323B9EEFD002E21DF /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		2CB5E34523B9F1BF002E21DF /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
+		2CD2FDDB23BB76E200E29A8C /* IngredientLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientLogic.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C2EB90323AFE500006F8237 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C2EB8FD23AFE500006F8237 = {
+			isa = PBXGroup;
+			children = (
+				2C2EB90823AFE500006F8237 /* LevyHero */,
+				2C2EB90723AFE500006F8237 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C2EB90723AFE500006F8237 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C2EB90623AFE500006F8237 /* LeftoverHero.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C2EB90823AFE500006F8237 /* LevyHero */ = {
+			isa = PBXGroup;
+			children = (
+				2C2EB90923AFE500006F8237 /* AppDelegate.swift */,
+				2CB5E34223B9EEEE002E21DF /* Models */,
+				2C2EB90B23AFE500006F8237 /* SceneDelegate.swift */,
+				2CB5E33F23B94BE8002E21DF /* Controllers */,
+				2C920D6F23D3726D0035B84D /* Views */,
+				2C2EB91223AFE503006F8237 /* Assets.xcassets */,
+				2C57569D23DE37040075E3D4 /* TomatoOnionDetector.mlmodel */,
+				2C2EB91723AFE503006F8237 /* Info.plist */,
+			);
+			path = LevyHero;
+			sourceTree = "<group>";
+		};
+		2C920D6F23D3726D0035B84D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2C2EB90F23AFE500006F8237 /* Main.storyboard */,
+				2C2EB91423AFE503006F8237 /* LaunchScreen.storyboard */,
+				2C920D7023D389C20035B84D /* RecipeCard.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2CB5E33F23B94BE8002E21DF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2C2EB90D23AFE500006F8237 /* VisionObjectRecognitionViewController.swift */,
+				2C2EB91D23AFE62D006F8237 /* ViewController.swift */,
+				2C70C9A823DE23FE00728971 /* RecipeCardView.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2CB5E34223B9EEEE002E21DF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2CB5E34023B9EE0E002E21DF /* RecipeListData.swift */,
+				2CB5E34323B9EEFD002E21DF /* NetworkManager.swift */,
+				2CB5E34523B9F1BF002E21DF /* RecipeModel.swift */,
+				2CD2FDDB23BB76E200E29A8C /* IngredientLogic.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C2EB90523AFE500006F8237 /* LevyHero */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C2EB91A23AFE503006F8237 /* Build configuration list for PBXNativeTarget "LevyHero" */;
+			buildPhases = (
+				2C2EB90223AFE500006F8237 /* Sources */,
+				2C2EB90323AFE500006F8237 /* Frameworks */,
+				2C2EB90423AFE500006F8237 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LevyHero;
+			productName = LevyHero;
+			productReference = 2C2EB90623AFE500006F8237 /* LeftoverHero.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C2EB8FE23AFE500006F8237 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Sven Arends";
+				TargetAttributes = {
+					2C2EB90523AFE500006F8237 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 2C2EB90123AFE500006F8237 /* Build configuration list for PBXProject "LevyHero" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C2EB8FD23AFE500006F8237;
+			productRefGroup = 2C2EB90723AFE500006F8237 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C2EB90523AFE500006F8237 /* LevyHero */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C2EB90423AFE500006F8237 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C2EB91623AFE503006F8237 /* LaunchScreen.storyboard in Resources */,
+				2C2EB91323AFE503006F8237 /* Assets.xcassets in Resources */,
+				2C920D7123D389C20035B84D /* RecipeCard.xib in Resources */,
+				2C2EB91123AFE500006F8237 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C2EB90223AFE500006F8237 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C57569E23DE37040075E3D4 /* TomatoOnionDetector.mlmodel in Sources */,
+				2C2EB90E23AFE500006F8237 /* VisionObjectRecognitionViewController.swift in Sources */,
+				2CD2FDDC23BB76E200E29A8C /* IngredientLogic.swift in Sources */,
+				2C2EB90A23AFE500006F8237 /* AppDelegate.swift in Sources */,
+				2C2EB91E23AFE62D006F8237 /* ViewController.swift in Sources */,
+				2CB5E34423B9EEFD002E21DF /* NetworkManager.swift in Sources */,
+				2C70C9A923DE23FE00728971 /* RecipeCardView.swift in Sources */,
+				2C2EB90C23AFE500006F8237 /* SceneDelegate.swift in Sources */,
+				2CB5E34623B9F1BF002E21DF /* RecipeModel.swift in Sources */,
+				2CB5E34123B9EE0E002E21DF /* RecipeListData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2C2EB90F23AFE500006F8237 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C2EB91023AFE500006F8237 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C2EB91423AFE503006F8237 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C2EB91523AFE503006F8237 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C2EB91823AFE503006F8237 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C2EB91923AFE503006F8237 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C2EB91B23AFE503006F8237 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93VL4MYHZZ;
+				INFOPLIST_FILE = LevyHero/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.svenarends.LeftoverHero;
+				PRODUCT_NAME = LeftoverHero;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C2EB91C23AFE503006F8237 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93VL4MYHZZ;
+				INFOPLIST_FILE = LevyHero/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.svenarends.LeftoverHero;
+				PRODUCT_NAME = LeftoverHero;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C2EB90123AFE500006F8237 /* Build configuration list for PBXProject "LevyHero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C2EB91823AFE503006F8237 /* Debug */,
+				2C2EB91923AFE503006F8237 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C2EB91A23AFE503006F8237 /* Build configuration list for PBXNativeTarget "LevyHero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C2EB91B23AFE503006F8237 /* Debug */,
+				2C2EB91C23AFE503006F8237 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C2EB8FE23AFE500006F8237 /* Project object */;
+}
