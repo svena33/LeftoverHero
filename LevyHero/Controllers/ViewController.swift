@@ -113,6 +113,8 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
         ingredientLogicManager.delegate = self
         #if targetEnvironment(simulator)
         ingredientLogicManager.addIngredient("Onion")
+        ingredientLogicManager.addIngredient("Tomato")
+
         #else
         setupAVCapture()
         #endif

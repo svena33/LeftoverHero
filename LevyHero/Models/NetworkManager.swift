@@ -14,7 +14,8 @@ protocol NetworkManagerDelegate {
 }
 
 struct NetworkManager{
-    let spoonacularBaseURL = "https://api.spoonacular.com/recipes/findByIngredients?limitLicense=False&ranking=1&ignorePantry=True&apiKey=bea35b1bd5944a849800230ff8924164"
+    let apiKey = "" //YOUR API KEY AS STRING HERE 
+    let spoonacularBaseURL = "https://api.spoonacular.com/recipes/findByIngredients?limitLicense=False&ranking=1&ignorePantry=True&apiKey="
     
     var delegate: NetworkManagerDelegate?
     
@@ -24,7 +25,7 @@ struct NetworkManager{
         for ingre in ingredients {
             ingredientString += "," + ingre
         }
-        let urlString = spoonacularBaseURL+ingredientString+noRecipesString
+        let urlString = spoonacularBaseURL+apiKey+ingredientString+noRecipesString
         performRequest(with: urlString)
     }
     
