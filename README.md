@@ -3,7 +3,7 @@
 
 Not sure what to make from your leftovers? Point the camera to your leftovers and it will suggest a recipe to make something delicious! LeftoverHero is a Swift app that uses a custom object detection model (Turi Create + CoreML) to detect ingredients and sends these ingredients to the Spoonacular API which suggests recipes. Clicking the recipe card results in a google search**.
 
-![LeftoverHeroGif](img/leftoverhero.gif)
+![LeftoverHeroGif](IMG/leftoverhero.gif)
 
 
 
