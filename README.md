@@ -5,7 +5,7 @@ Not sure what to make from your leftovers? Point the camera to your leftovers an
 
 
 <img src="https://github.com/svena33/LeftoverHero/raw/master/IMG/leftoverhero.gif" width="30%">
-<img src="https://github.com/svena33/LeftoverHero/raw/master/IMG/lefoverhero_screenshot.png" width="20%">
+<img src="https://github.com/svena33/LeftoverHero/raw/master/IMG/lefoverhero_screenshot.png" width="30%">
 
 
 
@@ -25,12 +25,12 @@ Currently the model is trained on two classes: **onions** and **tomatoes**. Whil
 
 ### Technologies
 
-Swift
-CoreML
-iOS (13.1+)
+Swift <br/>
+CoreML <br/>
+iOS (13.1+) <br/>
 
-Turi Create
-Python
+Turi Create <br/>
+Python <br/>
 
 Spoonacular API
 
