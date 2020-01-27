@@ -8,9 +8,10 @@ Not sure what to make from your leftovers? Point the camera to your leftovers an
 
 
 ### Model
-The object detection model was trained on 355 images of tomato and onions sourced from google images annoted manually by me. Instead of implementing the model in Tensorflow from scratch, I used Apple's Turi Create since it makes it super easy to train a object detection model. Turi Create implements a custom version of the popular darknet yolo-v2 model.  Turi Create uses (mean) average precision 50 as preformance indicators. This is the precision value when the Intersection over Union (IoU) threshold is fixed at 50%. A good explanation of these and other performance metrics of object detection models can be found here [4]. 
+The object detection model was trained on 355 images of tomato and onions sourced from google images annotated manually by me. Instead of implementing the model in TensorFlow from scratch, I used Apple's Turi Create since it makes it super easy to train an object detection model. Turi Create implements a custom version of the popular darknet yolo-v2 model.  Turi Create uses (mean) average precision 50 as performance indicators. This is the precision value when the Intersection over Union (IoU) threshold is fixed at 50%. A good explanation of these and other performance metrics of object detection models can be found here [4]. 
 
-Currently the model is trained on two classes: **onions** and **tomatos**. While the metrics show a unsatisfactory performance, the model in the app is test quite accurate and quick in detecting the right ingredient. Since we are using video, each object of interest is passed multiple times through the algorithm. This could explain why the model perfromance in the app is satisfactory.
+Currently the model is trained on two classes: **onions** and **tomatoes**. While the metrics show an unsatisfactory performance, the model in the app is test quite accurate and quick in detecting the right ingredient. Since we are using video, each object of interest is passed multiple times through the algorithm. This could explain why the model performance in the app is satisfactory.
+
 
 | Performance metric | Value |
 | ------ | ------ |
